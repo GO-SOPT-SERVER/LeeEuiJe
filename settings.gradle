@@ -1,0 +1,5 @@
+rootProject.name = 'gosopt'
+include '1st:firstSeminar'
+include '1st:OOP'
+
+include '2nd:SecondSeminar'
