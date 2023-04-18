@@ -1,0 +1,13 @@
+- this는 다음 문맥에서만 사용 가능
+    - instance의 method 또는 default method의 body
+    - class 생성자의 body
+    - class의 instance initializer
+    - class의 instance variable의 initializer
+    - receiver parameter를 표현하기 위해
+- 다른 곳에 사용하면 컴파일 에러
+- 람다식 안에서 this 사용가능
+- this
+    - the keyword this denotes a value that is a reference to the object for which the instance method or default method was invoked or to the object being constructed
+        - this는 객체의 method에 사용되거나 생성자에 사용되기 위해 사용 객체의 값을 가리키는 키워드이다.
+    - The value denoted by this in a lambda body is the same as the value denoted by this in the surrounding context.
+- abstract나 static method에서는 사용 불가능

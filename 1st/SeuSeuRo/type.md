@@ -1,0 +1,4 @@
+- 원시 타입
+    - boolean, char, byte, short, int, long, float, double
+- 참조 타입
+    - 원시 타입을 제외한 모든 타입 (String 포함)
