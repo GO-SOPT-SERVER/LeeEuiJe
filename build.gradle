@@ -57,3 +57,19 @@ project(':3th:ThirdSeminar') {
         annotationProcessor 'org.projectlombok:lombok'
     }))
 }
+
+project(':4th:FourthSeminar') {
+    dependencies (scriptScope.compose({
+        compileOnly 'org.projectlombok:lombok'
+        annotationProcessor 'org.projectlombok:lombok'
+
+        implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+        // Health Check
+        implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
+        // JPA & Database
+        implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+        implementation 'mysql:mysql-connector-java:8.0.32'
+  }))
+}
