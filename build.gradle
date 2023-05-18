@@ -47,6 +47,17 @@ project(':2nd:SecondSeminar') {
     }))
 }
 
+project(':3th:ThirdSeminar') {
+    dependencies (scriptScope.compose({
+        implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+        implementation 'mysql:mysql-connector-java:8.0.32'
+        implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+        compileOnly 'org.projectlombok:lombok'
+        annotationProcessor 'org.projectlombok:lombok'
+    }))
+}
+
 project(':4th:FourthSeminar') {
     dependencies (scriptScope.compose({
         compileOnly 'org.projectlombok:lombok'
@@ -60,5 +71,5 @@ project(':4th:FourthSeminar') {
         // JPA & Database
         implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
         implementation 'mysql:mysql-connector-java:8.0.32'
-    }))
+  }))
 }

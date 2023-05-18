@@ -1,7 +1,6 @@
 rootProject.name = 'gosopt'
 include '1st:firstSeminar'
 include '1st:OOP'
-
 include '2nd:SecondSeminar'
-
+include '3th:ThirdSeminar'
 include '4th:FourthSeminar'
